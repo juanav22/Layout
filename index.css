@@ -1,0 +1,100 @@
+:root {
+    --primary-font: "Poppins";
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--primary-font);
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .main-container {
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    flex: 1;
+  }
+  
+  .header {
+    background-color: #0a0a0a;
+    height: 20%;
+  }
+  
+  .hero {
+    background-color: #3488CB;
+    height: 80%;
+  }
+  
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+  }
+  
+  .menu {
+    background-color: #FF1D46;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .main-top {
+    background-color: #1F354E;
+    width: 100%;
+    height: 50%;
+  }
+  
+  .main-middle {
+    background-color: #FFCF52;
+    width: 100%;
+    height: 25%;
+  }
+  
+  .main-bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+  }
+  
+  .extra {
+    background-color: #00C095;
+    width: 80%;
+    height: 100%;
+    
+  }
+  
+  .imagen {
+    background-color: #B8E5E7;
+    width: 20%;
+    height: 100%;
+  }
