@@ -1,0 +1,144 @@
+:root {
+    --background: #eeede7;
+    --border-color: #0c0c0c;
+    --primary: #99CF1C;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 16px;
+    color: var(--border-color);
+    margin: 0;
+    padding: 10px 30px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.boxes1 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.boxes1 .box1 {
+    flex: 1;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes1 .box2 {
+    flex: 5;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes1 .box3 {
+    flex: 1;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes2 {
+    margin-top: 40px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes2 .box1 {
+    flex: 5;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes2 .box2 {
+    flex: 1;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes2 .box3 {
+    flex: 2;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes3 {
+    margin-top: 40px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes3 .box1 {
+    flex: 1;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes3 .box2 {
+    flex: 2;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes3 .box3 {
+    flex: 5;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes4 {
+    margin-top: 40px;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes4 .box1 {
+    flex: 2;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes4 .box2 {
+    flex: 1;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes4 .box3 {
+    flex: 2;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes4 .box4 {
+    flex: 1;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
+
+.boxes4 .box5 {
+    flex: 2;
+    background-color: var(--primary);
+    height: 200px;
+    border: 4px solid var(--border-color);
+}
